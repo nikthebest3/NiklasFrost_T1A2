@@ -1,0 +1,123 @@
+@import "../components/footer.css";
+@import "../components/header.css";
+@import "../components/utils.css";
+
+body {
+  background-color: skyblue;
+}
+
+/*input {
+  width: 25%;
+}
+
+label {
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  width: 80px;
+  height: 25px;
+  margin-top: 10px;
+  justify-content: space-between;
+  border: none;
+  border-radius: 8px;
+  background-color: chocolate;
+  color: white;
+  font-weight: bold;
+}*/
+
+.form {
+  padding: 16px;
+  width: 50%;
+  border-radius: 16px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: 100px;
+
+  /*box-shadow: 0px 0px 55px 14px rgba(0,0,120,0.75);*/
+}
+
+.form-elements {
+  margin-bottom: 32px;
+  margin-left: 370px;
+}
+
+.form-input {
+  height: 30px;
+  border: 1px solid brown;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-input:focus {
+  border: 1px solid blue;
+}
+
+#email-input {
+  margin-left: 40px;
+}
+
+#name-input {
+  margin-left: 40px;
+}
+
+#submit-btn {
+  height: 50px;
+  width: 200px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: darkcyan;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-left: 400px;
+}
+
+#submit-btn:hover {
+    background-color: green;
+}
+
+#submit-btn:active {
+  background-color: rgb(4, 246, 4);
+}
+
+
+footer {
+  position: absolute;
+  background-color: cornflowerblue;
+  width: 100vw;
+  bottom: 0;
+  height: 200px;
+  color: red;
+  border-radius: 8px;
+}
+
+.cv-btn {
+  background-color: orange;
+  color: black;
+  width: 182px;
+  height: 80px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-left: 405px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.person-name {
+  font-size: 32px;
+  color: red;
+  font-family: 'poppins';
+  font-weight: bold;
+  margin-left: 400px;
+}

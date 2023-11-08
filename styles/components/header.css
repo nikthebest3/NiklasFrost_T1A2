@@ -1,0 +1,108 @@
+/*header {
+  @include background-stuff();
+
+      .name {
+          font-size: 32px;
+
+          .coder-text {
+              color: #45a7c5;
+          }
+  
+          .academy-text {
+              color: #1c3c5c;
+          }
+      }
+  }*/
+
+  /*#nav-items {
+      display: flex;
+      justify-content: space-around;
+      font-size: 18px;
+
+      a {
+          text-decoration: none;
+          color: rgb(21, 21, 255);
+      }
+  }*/
+
+
+.laptop {
+  @media screen and (max-width: $medium) {
+    margin-bottom: 48px;
+  }
+}
+
+@mixin background-stuff() {
+  background-color: $primary-color;
+  padding: 16px;
+  text-align: center;
+}
+
+@media screen and (min-width: $medium) {
+  header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+
+      .logo-name {
+
+          .name {
+              margin-bottom: 0;
+          }
+      }
+
+      #nav-items {
+          width: 50%;
+      }
+  }
+}
+
+@media screen and (min-width: $medium) {
+  header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+
+      .logo-name {
+
+          .name {
+              margin-bottom: 0;
+          }
+      }
+
+      #nav-items {
+          width: 50%;
+      }
+  }
+}
+
+/*body {
+  margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}*/
+
+#nav-items {
+  justify-content: space-between;
+  font-size: 18px;
+  text-decoration: none;
+  color: blueviolet;
+  word-spacing: 400px;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+
+.laptop {
+  display: flex;
+  justify-content: space-between;
+  margin: -15;
+
+}
+
+.name {
+  margin-right: 50px;
+}
