@@ -80,3 +80,7 @@ p {
   font-weight: bold;
   margin-left: 400px;
 }
+
+@media screen {
+  min-width: 400px;
+}
