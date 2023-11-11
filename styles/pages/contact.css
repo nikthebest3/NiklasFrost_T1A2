@@ -101,4 +101,15 @@ footer {
   min-width: 400px;
 }*/
 
-@media screen and (min-width 900px);
+@media screen and (min-width 900px){
+  .form {
+    margin: 48px;
+  }
+}
+
+#nav-items {
+  font-family: 'Roboto';
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
