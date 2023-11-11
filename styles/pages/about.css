@@ -73,3 +73,10 @@ p {
   text-align: center;
 }
 
+.person-name {
+  font-size: 32px;
+  color: red;
+  font-family: 'poppins';
+  font-weight: bold;
+  margin-left: 400px;
+}
